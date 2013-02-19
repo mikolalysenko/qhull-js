@@ -6,19 +6,19 @@ Installation
 ============
 Via [npm](http://npmjs.org):
 
-    npm install qhull
+    npm install qhull-js
 
 Example
 =======
 Here is an example showing how to compute the convex hull of a set of points:
 
-    console.log(require("qhull")([[0, 0], [10, 0], [0, 10], [10, 10], [5, 5]]));
+    console.log(require("qhull-js")([[0, 0], [10, 0], [0, 10], [10, 10], [5, 5]]));
 
 Prints:
 
     [ [ 1, 0 ], [ 2, 0 ], [ 3, 1 ], [ 3, 2 ] ]
 
-`require("qhull")(points)`
+`require("qhull-js")(points)`
 --------------------------
 This function computes the n-dimensional convex hull of a collection of points.
 
