@@ -32,4 +32,6 @@ Currently, the library weighs in at around 3MB unminified.  Also
 
 Credits
 =======
-QHull is (c)1993-2013
+QHull is (c)1993-2013 C.B. Barber  (See COPYING.txt)
+
+JavaScript port by Mikola Lysenko, 2013
