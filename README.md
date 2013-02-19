@@ -28,7 +28,7 @@ Returns the convex hull of `points` represented by an array of facets each encod
 
 Notes
 =====
-Currently, the library weighs in at around 3MB unminified.  Also 
+Currently, the library weighs in at around 3MB unminified.  Patches welcome!
 
 Credits
 =======

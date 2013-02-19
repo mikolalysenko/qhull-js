@@ -5,7 +5,7 @@ PREJS = ./src/pre.js
 POSTJS = ./src/post.js
 MAIN = ./src/main.c
 EXPORTJS = "['_run_qhull']"
-CFLAGS =
+CFLAGS = -O1
 
 SOURCES := $(shell find $(QHULL_PATH) -type f -name '*.c')
 
